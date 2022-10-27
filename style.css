@@ -18,8 +18,30 @@ blue #5CB9E8
     color: #E53170;
     text-align: center;
     margin: 2rem;
- }   
+ } 
+ h2{
+    display: inline-block;
+    
+ }  
  header{
     margin-bottom: 4rem;
  }
  
+.cards{
+    display: inline-block;
+    
+    color: white;
+    background-color: black;
+    display: inline-block;
+    float: left;
+
+}
+img{
+    height: 100px;
+}
+.float-left{
+    float: left;
+}
+.clearfix ::after{
+    clear: left;
+}
