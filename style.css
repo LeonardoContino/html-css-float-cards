@@ -3,4 +3,23 @@
 blue #5CB9E8
  */
 
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+ }
+ body{
+   width: 1000px;
+   margin: auto;
+   padding: 2rem;
+ }
+ h1{
+    color: #E53170;
+    text-align: center;
+    margin: 2rem;
+ }   
+ header{
+    margin-bottom: 4rem;
+ }
  
