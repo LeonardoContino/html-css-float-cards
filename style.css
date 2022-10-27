@@ -10,10 +10,12 @@ blue #5CB9E8
     font-family: 'Fredoka', sans-serif;
  }
  body{
-   width: 1080px;
+   width: 1200px;
    margin: auto;
    padding: 2rem;
  }
+
+ 
  h1{
     color: #E53170;
     text-align: center;
@@ -33,13 +35,19 @@ blue #5CB9E8
  }  
  header{
     margin-bottom: 4rem;
+    text-align: center;
  }
  
 .cards{
     color: white;
     background-color: black;
     display: inline-block;
-    padding-right: 4rem;
+    padding-right: 2rem;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    border: solid black;
+    border-radius: 5px;
+    width: 350px;
 }
 img{
     height: 100px;
@@ -56,6 +64,13 @@ img{
 }
 .container{
     float: left;
+}
+.clearfix{
+    float: left;
+    
+}
+.row{
+    margin: 0 -1rem;
 }
 
 .clearfix::after{
