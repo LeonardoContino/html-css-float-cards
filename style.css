@@ -10,11 +10,13 @@ blue #5CB9E8
     font-family: 'Fredoka', sans-serif;
  }
  body{
-   width: 1200px;
+   max-width: 1200px;
    margin: auto;
    padding: 2rem;
  }
-
+main{
+    width: calc(100 / 3);
+}
  
  h1{
     color: #E53170;
@@ -42,12 +44,14 @@ blue #5CB9E8
     color: white;
     background-color: black;
     display: inline-block;
-    padding-right: 2rem;
+    padding-right: 1rem;
     margin-left: 1rem;
     margin-bottom: 2rem;
     border: solid black;
     border-radius: 5px;
-    width: 350px;
+
+
+    
 }
 img{
     height: 100px;
