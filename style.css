@@ -15,7 +15,8 @@ blue #5CB9E8
    padding: 2rem;
  }
 main{
-    width: calc(100 / 3);
+    width: calc(100 / 3 -1rem);
+    
 }
  
  h1{
@@ -49,6 +50,7 @@ main{
     margin-bottom: 2rem;
     border: solid black;
     border-radius: 5px;
+    width: 350px;
 
 
     
